@@ -1,4 +1,4 @@
-# package-info  v3.0.2
+# npm-info v3.1.0
 
 [![Join the chat at https://gitter.im/AlessandroMinoccheri/package-info](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AlessandroMinoccheri/package-info?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -17,6 +17,7 @@ https://github.com/sindresorhus/npm-name
 Thanks to the author https://github.com/sindresorhus
 
 The information that you can retrieve are:
+
 - <b>package name</b>
 - <b>package version</b>
 - <b>package description</b>
@@ -30,14 +31,13 @@ The information that you can retrieve are:
 $ npm install --save package-info
 ```
 
-
 ## Usage
 
 ```js
-var info = require('package-info');
+var info = require("package-info");
 
 (async () => {
-    console.log(await info('package-info'));
+	console.log(await info("package-info"));
 })();
 ```
 
@@ -58,6 +58,7 @@ Example
 ```
 
 It will prints:
+
 ```
 name: package-info
 version: 3.0.1
@@ -71,7 +72,7 @@ author: Alessandro Minoccheri
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Alessandro Minoccheri
+Copyright (c) 2018 Alaa ElSaman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
